@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-07T09:26:46Z" name="Default suite" finished-at="2020-05-07T09:27:41Z" duration-ms="54929">
+    <groups>
+    </groups>
+    <test started-at="2020-05-07T09:26:46Z" name="Default test" finished-at="2020-05-07T09:27:41Z" duration-ms="54929">
+      <class name="LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:56:47Z" name="setUp" finished-at="2020-05-07T14:57:02Z" duration-ms="14995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:57:02Z" name="verifyLogin" data-provider="getLoginTestData" finished-at="2020-05-07T14:57:03Z" duration-ms="906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:57:03Z" name="teardown" finished-at="2020-05-07T14:57:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:57:03Z" name="setUp" finished-at="2020-05-07T14:57:15Z" duration-ms="11497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:57:15Z" name="verifyLogin" data-provider="getLoginTestData" finished-at="2020-05-07T14:57:16Z" duration-ms="735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:57:16Z" name="teardown" finished-at="2020-05-07T14:57:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:57:16Z" name="setUp" finished-at="2020-05-07T14:57:40Z" duration-ms="24561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:57:40Z" name="verifyLogin" data-provider="getLoginTestData" finished-at="2020-05-07T14:57:41Z" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTest@57cf54e1]" started-at="2020-05-07T14:57:41Z" name="teardown" finished-at="2020-05-07T14:57:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
