@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 public class Demo {
 
 	static String str1;
-
+//huftggu
 //		str1 = "niveditabhushan28@wellsfargo.in";
 //		System.out.println(str1.matches("^[a-zA-Z0-9.\\.]+(@[a-zA-Z]{1,}\\.[a-zA-Z]{2,})$"));
 //		//System.out.println("abbc" + 10 + 20);
